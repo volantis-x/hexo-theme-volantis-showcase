@@ -45,7 +45,7 @@ jobs:
           data_path: '/v2/data.json'
           sort: 'version-desc' # created-desc/created-asc/updated-desc/updated-asc/version-desc
           exclude_issue_with_labels: '审核中, 风险网站, 无效主题' # 具有哪些标签的issue不生成到JSON中
-          hide_labels: '白名单, v5, v4, v3, v2, v1, MaterialX' # 这些标签不显示在前端页面
+          hide_labels: '白名单, v6, v5, v4, v3, v2, v1, MaterialX' # 这些标签不显示在前端页面
       - name: Setup Git Config
         run: |
           git config --global user.name 'github-actions[bot]'
